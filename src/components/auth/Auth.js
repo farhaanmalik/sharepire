@@ -51,7 +51,8 @@ const Auth = () => {
                     <p>Login or Signup with</p>
                     <div className="sign-link">
                         <Link className="link-box" onClick={signupWithGoogle} ><img src="./images/google.png" alt="google" /> Google</Link>
-                        <Link className="link-box"><img src="./images/facebook.png" alt="facebook" /> Facebook</Link>
+                        {/*<Link className="link-box"><img src="./images/facebook.png" alt="facebook" /> Facebook</Link>*/}
+
                         {/* <Link className="link-box"><img src="./images/github.png" alt="github" /> Github</Link> */}
                     </div>
                 </div>
