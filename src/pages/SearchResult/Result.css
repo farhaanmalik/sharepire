@@ -1,0 +1,41 @@
+.md-search-bar {
+    padding: 5px;
+    display: none;
+}
+
+@media screen and (max-width: 800px) {
+    .md-search-bar {
+        display: block;
+    }
+    
+    .md-search-bar input {
+        width: 100%;
+        font-size: 16px;
+        letter-spacing: 1px;
+        margin-right: 10px;
+        padding: 10px 5px;
+        outline: none;
+        border: none;
+        background-color: var(--whiteColor);
+    }
+    
+    .md-search-bar form {
+        max-width: 800px;
+        margin: auto;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        background-color: var(--whiteColor);
+        border: 1px solid #f3fafe;
+        border-radius: 5px;
+        box-shadow: 0px 0px 4px var(--shadowColor);
+    }
+    
+    .md-search-bar form:hover {
+        box-shadow: 0px 0px 4px var(--boxColor);
+    }
+    
+    .md-search-bar form label {
+        padding: 10px 10px;
+    }
+}

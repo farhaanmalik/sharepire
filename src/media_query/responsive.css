@@ -1,0 +1,138 @@
+@media screen and (max-width: 1150px) {
+    .side-left {
+        width: 200px;
+        margin-left: 10px;
+    }
+
+    .side-left .menu a {
+        padding: 8px 20px;
+    }
+
+    .sidebar-end {
+        left: 4px;
+    }
+
+    .side-right {
+        margin-left: 10px;
+    }
+
+    .container {
+        padding: 0 5px;
+        margin: 0;
+    }
+
+    .sortby {
+        margin-bottom: 10px;
+    }
+
+    .user-box {
+        padding: 50px;
+        background-color: var(--whiteColor);
+        box-shadow: 0 0 2px var(--shadowColor);
+    }
+}
+
+@media screen and (max-width: 980px) {
+    .side-right {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .side-left {
+        display: none;
+        /* position: fixed;
+        top: 10.7%;
+        left: -1.5%;
+        border-radius: 0;
+        height: 100vh; */
+    }
+
+    .search-bar {
+        display: none;
+    }
+}
+
+@media screen and (max-width:560px) {
+
+    .below-nav {
+        display: block;
+    }
+      
+    header {
+        padding: 15px;
+    }
+
+    .logo img{
+        width: 150px;
+    }
+
+    .sign-logo {
+        font-size: 15px;
+    }
+
+    .sortby .sortbtn {
+        font-size: 16px;
+    }
+
+    .content {
+        max-width: 100%;
+        margin: 4px 0px;
+        background-color: var(--whiteColor);
+        padding: 15px 10px;
+        box-shadow: 0px 0px 2px var(--shadowColor);
+        border-radius: 5px;
+    }
+
+    .user-content .content-title {
+        font-size: 18px;
+        font-weight: 600;
+    }
+
+    .post {
+        flex-direction: column;
+    }
+
+    .content-img {
+        width: 100%;
+    }
+
+    .content-img img {
+        width: 100%;
+        box-shadow: 0px 0px 1px var(--textColor);
+        border-radius: 5px;
+        margin: 10px 0;
+    }
+
+    .title-head {
+        font-size: 22px;
+    }
+
+    .explore-para {
+        font-size: 15px;
+    }
+
+    .tagBox {
+        margin: 5px;
+        width: 140px;
+    }
+
+    .tagBox span {
+        font-size: 14px;
+        font-weight: 400;
+        margin-right: 5px;
+    }
+    .plusIcon {
+        font-size: 25px;
+      }
+
+    .all-category {
+        padding: 10px 5px;
+    }
+
+    footer{
+        padding: 20px;
+        padding-top: 40px;
+        margin-bottom: 40px;
+    }
+}

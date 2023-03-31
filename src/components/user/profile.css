@@ -1,0 +1,427 @@
+.user-box {
+  border-radius: 5px;
+  padding: 50px 100px;
+  background-color: var(--whiteColor);
+  box-shadow: 0 0 2px var(--shadowColor);
+}
+
+.profile-section {
+  max-width: 750px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 30px;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  margin-right: 50px;
+}
+
+.profile img {
+  width: 120px;
+  border-radius: 50%;
+  padding: 2px;
+  border: 2px solid var(--boxHoverColor);
+}
+
+.profile-details {
+  margin-left: 30px;
+  padding: 15px 0px;
+}
+
+.profile-name {
+  font-size: 25px;
+  letter-spacing: 1px;
+  color: var(--headColor);
+}
+
+.profile-username {
+  font-size: 15px;
+  padding-top: 10px;
+  color: var(--textColor);
+}
+
+.edit-link {
+  display: flex;
+  align-items: center;
+}
+
+.edit-link a {
+  font-size: 18px;
+  color: var(--whiteColor);
+  background-color: var(--boxColor);
+  border: 2px solid var(--boxColor);
+  box-shadow: 0px 0px 2px var(--shadowColor);
+  text-decoration: none;
+  padding: 5px 20px;
+  border-radius: 5px;
+  transition: all .4s;
+}
+
+.edit-link a:hover {
+  color: var(--boxColor);
+  background-color: transparent;
+  border: 2px solid var(--boxColor);
+}
+.edit-icon{
+  font-size: 22px;
+  transform: translate(-3px, 2px);
+}
+
+.user-social-link {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  line-height: 30px;
+}
+
+.location p,
+.join p {
+  color: var(--textColor);
+  font-size: 15px;
+}
+
+.social-links span a {
+  margin-right: 15px;
+}
+
+.social-links span a i {
+  font-size: 18px;
+  color: var(--textColor);
+  transition: all .3s;
+}
+
+.social-links span a i:hover {
+  color: var(--headColor);
+}
+
+.card-row {
+  margin-top: 10px;
+  padding: 0px 20px;
+}
+
+.card-row h3 {
+  padding-bottom: 20px;
+}
+
+.profile-card {
+  margin-top: 20px;
+  padding: 20px 30px;
+  background-color: var(--bgColor);
+}
+
+.userPost {
+  padding: 0 10px;
+  padding-top: 10px;
+  border-top: 1px solid var(--shadowColor);
+}
+
+.userPost h3 {
+  font-weight: 600;
+}
+
+
+/*===== User view on Top Nav when loggedin =====*/
+
+.createPostBtn a {
+  color: var(--whiteColor);
+  background-color: var(--boxColor);
+  padding: 10px;
+  font-size: 16px;
+  margin: 0 20px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  transition: all .3s;
+}
+
+.createPostBtn a:hover {
+  background-color: var(--boxHoverColor);
+}
+
+.createPostBtn a .create-post-icon {
+  font-size: 18px;
+  margin-left: 5px;
+}
+
+.notify-icon {
+  font-size: 30px;
+  padding-top: 5px;
+  cursor: pointer;
+  color: var(--textColor);
+}
+
+.userTop {
+  display: flex;
+  align-items: center;
+}
+
+.userToggle .user-img {
+  margin-left: 20px;
+}
+
+.userToggle ul {
+  display: none;
+  position: absolute;
+  top: 99%;
+  right: 1.2%;
+  background-color: var(--whiteColor);
+  box-shadow: 0px -1.5px 8px var(--shadowColor);
+  border-radius: 5px;
+  padding: 10px 5px;
+  letter-spacing: 1px;
+  line-height: 30px;
+}
+
+.userToggle ul::before {
+  content: "";
+  position: absolute;
+  top: -10px;
+  right: 30px;
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 20px solid var(--whiteColor);
+}
+
+.userToggle ul.active {
+  display: block;
+}
+
+.userToggle ul li:first-child {
+  font-weight: 500;
+  padding-bottom: 5px;
+  border-bottom: 1px solid var(--shadowColor);
+}
+
+.userToggle ul li {
+  padding: 5px 30px;
+}
+
+.userToggle ul li a {
+  color: var(--textColor);
+  transition: all .3s;
+}
+
+.userToggle ul li a:hover {
+  color: var(--boxHoverColor);
+}
+
+.userToggle ul li:last-child {
+  padding-bottom: 5px;
+  color: #ff5d5d;
+  cursor: pointer;
+}
+
+
+/*==== Edit profile section CSS ====*/
+
+.editProfile-section {
+  max-width: 950px;
+  margin: 10px auto;
+  padding: 20px 100px;
+  background-color: var(--whiteColor);
+  box-shadow: 0 0 2px var(--shadowColor);
+  border-radius: 5px;
+  text-align: center;
+}
+
+.editProfileBox {
+  text-align: left;
+  margin: 20px 0px;
+  border-radius: 5px;
+}
+
+.editProfileBox h3 {
+  width: 100%;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid var(--textColor);
+}
+
+.editBox {
+  padding: 10px 20px;
+}
+
+.editBox .row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.editBox label {
+  font-size: 18px;
+  font-weight: 500;
+  padding: 5px;
+  color: var(--textColor);
+}
+
+.editBox .profileImg {
+  transform: translateY(7px);
+  padding: 10px;
+  z-index: 1;
+}
+
+.editBox input,
+.editBox textarea {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  outline: none;
+  border: none;
+  box-shadow: 0px 0px 2px var(--shadowColor);
+  border-radius: 5px;
+  margin-left: 5px;
+  margin-bottom: 10px;
+  margin-top: 5px;
+  font-size: 18px;
+  background-color: var(--bgColor);
+  color: var(--textColor);
+}
+
+.editBox input:focus,
+.editBox textarea:focus {
+  box-shadow: 0px 0px 2px var(--boxColor);
+}
+
+#addProfile {
+  font-weight: 600;
+  color: var(--whiteColor);
+  background-color: var(--boxColor);
+  padding: 10px 15px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  border: none;
+  outline: none;
+}
+
+
+@media screen and (max-width: 1150px) {
+  .user-box {
+    padding: 50px;
+  }
+
+  .card-row {
+    margin-top: 10px;
+    padding: 0px 20px;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .user-box {
+    padding: 25px;
+  }
+
+  .editProfile-section {
+    padding: 20px 35px;
+  }
+
+  .editBox input,
+  .editBox textarea {
+    width: 100%;
+    margin-bottom: 5px;
+  }
+}
+
+@media screen and (max-width:560px) {
+  .createPostBtn,
+  .notify {
+    display: none;
+  }
+  .userToggle ul::before {
+    right: 22px;
+  }
+
+  .profile-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-bottom: 0;
+  }
+  .profile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 5px;
+  }
+  
+  .profile img {
+    width: 120px;
+  }
+  
+  .profile-details {
+    margin-left: 0px;
+    padding: 10px 0px;
+  }
+  
+  .profile-name {
+    font-size: 25px;
+    letter-spacing: 1px;
+    color: var(--headColor);
+  }
+  .user-social-link{
+    display: flex;
+    flex-direction: column;
+    line-height: 35px;
+  }
+  
+  .edit-link a {
+    font-size: 16px;
+    padding: 5px 15px;
+  }
+  .edit-icon{
+    font-size: 18px;
+  }
+  
+
+  .card-row {
+    padding: 0px;
+  }
+  .card-row h3 {
+    padding-bottom: 10px;
+  }
+  .profile-card {
+    margin-top: 15px;
+    padding: 10px 15px;
+  }
+  .userPost {
+    padding: 0px 5px;
+    padding-top: 10px;
+  }
+  .userPost .date{
+    margin-left: 5px;
+  }
+  .userPost h3 {
+    font-size: 17px;
+    font-weight: 500;
+  }
+
+  .editProfile-section {
+    padding: 20px;
+  }
+  .editProfileBox{
+    margin: 15px 0px;
+  }
+  .editProfileBox h3 {
+   font-size: 16px;
+  }
+  .editBox {
+    padding: 5px 10px;
+  }
+  .editBox label {
+    font-size: 16px;
+  }
+  
+  .editBox input,
+  .editBox textarea {
+    font-size: 15px;
+  }
+
+
+}
