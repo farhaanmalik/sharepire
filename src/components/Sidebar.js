@@ -1,7 +1,7 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 import { RiHome3Line, RiCompass3Line, RiInformationLine, RiQuestionLine, RiLockLine, RiTodoLine } from "react-icons/ri";
-import { MdOutlineDynamicFeed } from "react-icons/md"
+// import { MdOutlineDynamicFeed } from "react-icons/md"
 
 const Sidebar = () => {
 
@@ -25,13 +25,13 @@ const Sidebar = () => {
                     <div className="sidebar-end">
                         <div className="social-link">
                             <div className="fb s-link">
-                                <a href='#'><i className="fa-brands fa-twitter"></i></a>
+                                <a href='https://twitter.com' rel='noreferrer' target="_blank"><i className="fa-brands fa-twitter"></i></a>
                             </div>
                             <div className="fb s-link">
-                                <a href='#'><i className="fa-brands fa-linkedin"></i></a>
+                                <a href='https://linkedin.com' rel='noreferrer' target="_blank"><i className="fa-brands fa-linkedin"></i></a>
                             </div>
                             <div className="fb s-link">
-                                <a href='#'><i className="fa-brands fa-square-facebook"></i></a>
+                                <a href='https://facebook.com' rel='noreferrer' target="_blank"><i className="fa-brands fa-square-facebook"></i></a>
                             </div>
                         </div>
                         <div className="ft-end">

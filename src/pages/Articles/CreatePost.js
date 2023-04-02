@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import "./Post.css";
 import ReactTagInput from "@pathofdev/react-tag-input";
-// import "@pathofdev/react-tag-input/build/index.css";
+import "@pathofdev/react-tag-input/build/index.css";
 import { useNavigate, useParams } from 'react-router-dom';
 import { addDoc, collection, doc, getDoc, serverTimestamp, updateDoc } from 'firebase/firestore';
 import { auth, db, storage } from '../../Firebase';

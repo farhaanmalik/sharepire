@@ -6,7 +6,7 @@ import { useAuthState } from "react-firebase-hooks/auth"
 
 const Navbar = () => {
 
-    const [user, loading] = useAuthState(auth)
+    const [user ] = useAuthState(auth)
 
     return (
         <>

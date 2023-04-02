@@ -62,7 +62,7 @@ const Feed = () => {
         <div className="main">
           <Sidebar />
           <div className="container two-row">
-            <div>
+            <div className='content-area'>
               {/* <SortBy /> */}
               {postLists.reverse().map((post) => {
                 return <div key={post.id}>
