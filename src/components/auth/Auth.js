@@ -41,8 +41,8 @@ const Auth = () => {
         try {
             const result = await signInWithPopup(auth, facebookProvider);
             console.log(result.user)
-            // navigate(`/`)
-            // toast.success("Login Succuessfully")
+            navigate(`/`)
+            toast.success("Login Succuessfully")
         } catch (error) {
             console.log(error)
         }
